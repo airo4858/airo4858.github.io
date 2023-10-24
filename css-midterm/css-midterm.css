@@ -2,34 +2,53 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), aquamarine);
 }
 
 p {
-    font-size: 12px;
+    font-size: 13px;
+    margin-left: 10vw;
+    margin-right: 14vw;
 }
 
 h1 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
+    align-items: flex-start;
+    height: 15vh;
+    margin-top: 10vh;
+    padding: 30px;
     font-size: 40px;
+    background-image: url(images/Colorado-Logo.png);
+    background-position-x: 90vw;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
 
 h2 {
     display: flex;
-    flex-wrap: wrap;
+    position: relative;
     flex-direction: column;
-    align-items: center;
-    margin: 30px;
+    text-align: center;
+    padding-top: 30px;
+    height: 8vh;
+    margin: 20px;
     font-size: 22px;
+    background-color: rgb(255, 213, 61);
+    border: 5px solid black;
+}
+
+h2:hover {
+    text-decoration: underline;
 }
 
 .beginning {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
+    font-size: 22px;
+    width: 50vw;
+    margin-left: 25%;
+    margin-bottom: 8vh;
 }
