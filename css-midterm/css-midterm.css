@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 10vw;
     margin-right: 14vw;
 }
@@ -42,6 +42,7 @@ h1 {
     background-position-y: 0vh;
     background-repeat: no-repeat;
     background-size: 100px;
+    border-bottom: 5px black solid;
 }
 
 h2 {
@@ -69,4 +70,26 @@ h2:hover {
     width: 50vw;
     margin-left: 25%;
     margin-bottom: 8vh;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 234, 208);
+    justify-content: center;
+    border: 5px rgb(162, 162, 162) groove;
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
 }
