@@ -2,13 +2,31 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(rgb(255, 255, 255), aquamarine);
+    background-image: linear-gradient(rgb(255, 255, 255), green);
 }
 
 p {
     font-size: 13px;
     margin-left: 10vw;
     margin-right: 14vw;
+}
+
+nav {
+    position: absolute;
+    width: 20vw;
+    height: 45vh;
+    top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: black solid 2px;
+}
+
+nav a {
+    font-size: 12px;
+    text-align: center;
+    margin: 9px;
 }
 
 h1 {
@@ -35,7 +53,7 @@ h2 {
     height: 8vh;
     margin: 20px;
     font-size: 22px;
-    background-color: rgb(255, 213, 61);
+    background-color: aquamarine;
     border: 5px solid black;
 }
 
