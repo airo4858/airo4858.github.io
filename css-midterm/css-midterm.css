@@ -94,7 +94,7 @@ h2:hover {
         font-size: 11px;
     }
     nav {
-        width: 35vw;
+        width: 25vw;
     }
     nav a{
         font-size: 5px;
@@ -105,5 +105,7 @@ h2:hover {
     .beginning {
         font-size: 10px;
         margin-bottom: 15vh;
+        margin-right: 10vw;
+        align-items: flex-end;
     }
 }
