@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive thingie</title>
+</head>
+
+<body>
+    <div id="interactive"> WOAHHHHHH INTERACTIVE PARAGRAPH</div>
+    <div id="demon">The demon of babylon disguises himself with the coat of righteousness.</div>
+
+    <script>
+        const interactive = document.getElementById("interactive");
+        const demon = document.getElementById("demon");
+
+        interactive.addEventListener('click', doSomething);
+        demon.addEventListener('click', doSomethingDifferent);
+
+        function doSomething() {
+            interactive.innerHTML = `<h1>ftywghvduytsghjdgsiygdhs</h1>`
+        }
+        function doSomethingDifferent() {
+            demon.style.backgroundColor = "maroon";
+            demon.style.fontSize = "32px";
+        }
+
+    </script>
+</body>
+</html>
