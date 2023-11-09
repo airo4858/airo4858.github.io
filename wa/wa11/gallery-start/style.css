@@ -1,0 +1,61 @@
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  color: rgb(76, 123, 13);
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 2, 248);
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.displayed-img {
+  display: block;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgba(216, 16, 16, 0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  float: left;
+  cursor: pointer;
+}
