@@ -17,7 +17,7 @@ const btn9 = document.querySelector('#b9').addEventListener('click', number9);
 const newtext = document.querySelector('#phone-number');
 
 function number1() {
-    const n1 = 1;
+    const n1 = 9;
     let currentNumber = newtext.textContent;
     let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
@@ -31,14 +31,14 @@ function number2() {
 }
 
 function number3() {
-    const n1 = 3;
+    const n1 = 4;
     let currentNumber = newtext.textContent;
     let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number4() {
-    const n1 = 4;
+    const n1 = 3;
     let currentNumber = newtext.textContent;
     let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
@@ -73,7 +73,7 @@ function number8() {
 }
 
 function number9() {
-    const n1 = 9;
+    const n1 = 1;
     let currentNumber = newtext.textContent;
     let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
