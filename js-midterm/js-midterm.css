@@ -1,9 +1,14 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 5),rgb(255, 112, 179));
+}
+
 h1 {
     font-family: "Comic Sans MS";
     color: rgb(255, 0, 191);
     position: flex;
     text-align: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 .buttons {
