@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to bottom right, rgb(255, 255, 5),rgb(255, 112, 179));
+    background-repeat: repeat;
 }
 
 h1 {
