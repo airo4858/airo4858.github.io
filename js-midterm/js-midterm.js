@@ -19,62 +19,62 @@ const newtext = document.querySelector('#phone-number');
 function number1() {
     const n1 = 1;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number2() {
     const n1 = 2;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number3() {
     const n1 = 3;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number4() {
     const n1 = 4;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number5() {
     const n1 = 5;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number6() {
     const n1 = 6;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number7() {
     const n1 = 7;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number8() {
     const n1 = 8;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
 
 function number9() {
     const n1 = 9;
     let currentNumber = newtext.textContent;
-    let finalNum = currentNumber + n1;
+    let finalNum = n1 + currentNumber;
     newtext.textContent = finalNum;
 }
