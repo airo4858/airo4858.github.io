@@ -12,6 +12,14 @@ h1 {
     margin-top: 10vh;
 }
 
+.other-buttons {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 255, 221);
+}
+
 .buttons {
     display: flex;
     text-align: center;
@@ -21,11 +29,25 @@ h1 {
 
 #phone-number {
     font-family: "Comic Sans Ms";
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 10vh;
     margin-top: 10vh;
     color: rgb(234, 255, 49);
+}
+
+#phone {
+    font-family: "Comic Sans Ms";
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    color: rgb(234, 255, 49);
+}
+
+#b0 {
+    color: brown;
+    background-color: rgb(133, 33, 33);
 }
 
 #b1 {
