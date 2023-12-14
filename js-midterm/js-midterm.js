@@ -22,8 +22,15 @@ const newtext = document.querySelector('#phone-number');
 function number0() {
     const n1 = 0;
     let currentNumber = newtext.textContent;
-    let finalNum = n1 + currentNumber;
-    newtext.textContent = finalNum;
+    if (currentNumber.length >= 5){
+        const n1 = 7;
+        let finalNum = n1 + currentNumber;
+        newtext.textContent = finalNum;
+    }
+    else {
+        let finalNum = n1 + currentNumber;
+        newtext.textContent = finalNum;
+    }
 }
 
 function number1() {
@@ -99,8 +106,15 @@ function number6() {
 function number7() {
     const n1 = 7;
     let currentNumber = newtext.textContent;
-    let finalNum = n1 + currentNumber;
-    newtext.textContent = finalNum;
+    if (currentNumber.length >= 5){
+        const n1 = 0;
+        let finalNum = n1 + currentNumber;
+        newtext.textContent = finalNum;
+    }
+    else {
+        let finalNum = n1 + currentNumber;
+        newtext.textContent = finalNum;
+    }
 }
 
 function number8() {
