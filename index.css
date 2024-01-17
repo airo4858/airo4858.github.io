@@ -1,0 +1,17 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 37, 10);
+    position: flex;
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+
+h2 {
+    position: flex;
+    margin-top: 5vh;
+}
+
+.Biography {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
